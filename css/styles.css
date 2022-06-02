@@ -163,7 +163,9 @@ section .wave.water:nth-child(4)
        background-position-x: -1000px;
    }
 }
-
+.typed-cursor {
+  color: orange;
+}
 /* About Section */
 
 #about .container-fluid {
@@ -364,8 +366,8 @@ hr {
   background: yellow;
 }
 .bar .progress-line.mongo-db span{
-  width: 50%;
-  background: yellow;
+  width: 60%;
+  background: #5bc0de;
 }
 .bar .progress-line.node-js span{
   width: 85%;
@@ -380,12 +382,12 @@ hr {
   background: yellow;
 }
 .bar .progress-line.android-studio span{
-  width: 60%;
-  background: #5bc0de;
+  width: 80%;
+  background: #5cb85c;
 }
 .bar .progress-line.python span{
-  width: 20%;
-  background: #d9534f;
+  width: 60%;
+  background: #5bc0de;
 }
 
 .progress-line span::before{
@@ -436,7 +438,7 @@ hr {
   content: "40/100";
 }
 .progress-line.mongo-db span::after{
-  content: "50/100";
+  content: "60/100";
 }
 .progress-line.node-js span::after{
   content: "85/100";
@@ -448,10 +450,10 @@ hr {
   content: "50/100";
 }
 .progress-line.android-studio span::after{
-  content: "60/100";
+  content: "80/100";
 }
 .progress-line.python span::after{
-  content: "20/100";
+  content: "60/100";
 }
 
 .index {
@@ -490,6 +492,10 @@ hr {
   font-size: 3rem;
 }
 
+.single-line-heading {
+  margin-bottom: 50px;
+}
+
 #projects p {
   font-family: 'Merriweather',sans-serif;
   margin-top: 1.5%;
@@ -515,48 +521,61 @@ hr {
   margin-bottom: 40px;
 }
 
-.project-1 {
+.project-7 {
   background: #17EAD9;
   background: -webkit-linear-gradient(top left, #17EAD9, #6079EA);
   background: -moz-linear-gradient(top left, #17EAD9, #6079EA);
   background: linear-gradient(to bottom right, #17EAD9, #6079EA);
 }
 
-.project-2 {
+.project-3 {
   background: #F02FC2;
   background: -webkit-linear-gradient(top left, #F02FC2, #6095EA);
   background: -moz-linear-gradient(top left, #F02FC2, #6095EA);
   background: linear-gradient(to bottom right, #F02FC2, #6095EA);
 }
 
-.project-3 {
-  background: #FE45A2;
-  background: -webkit-linear-gradient(top left, #FE45A2, #FF7676);
-  background: -moz-linear-gradient(top left, #FE45A2, #FF7676);
-  background: linear-gradient(to bottom right, #FE45A2, #FF7676);
+.project-1 {
+ /* Created with https://www.css-gradient.com */
+  background: #E60018;
+  background: -webkit-linear-gradient(top right, #E60018, #FF4B5D);
+  background: -moz-linear-gradient(top right, #E60018, #FF4B5D);
+  background: linear-gradient(to bottom left, #E60018, #FF4B5D);
+}
+
+.project-2 {
+  /* Created with https://www.css-gradient.com */
+  background: #0146FF;
+  background: -webkit-linear-gradient(top left, #0146FF, #4377FF);
+  background: -moz-linear-gradient(top left, #0146FF, #4377FF);
+  background: linear-gradient(to bottom right, #0146FF, #4377FF);
 }
 
 .project-4 {
-  background: #B398DD;
-  background: -webkit-linear-gradient(top left, #B398DD, #A31F7D);
-  background: -moz-linear-gradient(top left, #B398DD, #A31F7D);
-  background: linear-gradient(to bottom right, #B398DD, #A31F7D);
+ /* Created with https://www.css-gradient.com */
+  background: #F1751E;
+  background: -webkit-linear-gradient(top left, #F1751E, #FF9D58);
+  background: -moz-linear-gradient(top left, #F1751E, #FF9D58);
+  background: linear-gradient(to bottom right, #F1751E, #FF9D58);
 }
 
 .project-5 {
-  background: #03A21D;
-  background: -webkit-linear-gradient(top left, #03A21D, #64ADE1);
-  background: -moz-linear-gradient(top left, #03A21D, #64ADE1);
-  background: linear-gradient(to bottom right, #03A21D, #64ADE1);
+  /* Created with https://www.css-gradient.com */
+  background: #03A79D;
+  background: -webkit-linear-gradient(bottom right, #03A79D, #55FFF4);
+  background: -moz-linear-gradient(bottom right, #03A79D, #55FFF4);
+  background: linear-gradient(to top left, #03A79D, #55FFF4);
 }
-
 .project-6 {
-  background: #062AEB;
+  /* background: #062AEB;
   background: -webkit-linear-gradient(top left, #062AEB, #79B238);
   background: -moz-linear-gradient(top left, #062AEB, #79B238);
-  background: linear-gradient(to bottom right, #062AEB, #79B238);
+  background: linear-gradient(to bottom right, #062AEB, #79B238); */
+  background-color: black;
 }
-
+.project-6 h5 {
+  height: 75px;
+}
 .project-image {
   width: 150px;
   height: 150px;
@@ -565,8 +584,13 @@ hr {
 }
 
 .project-2 img {
-  width: 200px;
+  width: 170px;
 }
+
+/* .foodmate-img {
+  width: 250px;
+  height: 150px;
+} */
 
 .project-div h5 {
   font-family: 'Montserrat', sans-serif;

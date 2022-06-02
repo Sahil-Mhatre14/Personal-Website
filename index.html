@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Sahil Mhatre</title>
-  <link rel="shortcut icon" href="images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/slidein.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -60,8 +60,11 @@
         <div class="col-lg-8">
           <h3>Hey There,</h3>
           <h1 class="big-heading">I am Sahil Mhatre.</h1>
-          <h3>I am <span class="typing"></span></h3>
-          <button type="button" class="btn btn-lg btn-dark download-button"><i class="bi bi-file-earmark-person"></i> Download Resume</button>
+          <h3>I am <span style="color: orange;" class="typing"></span></h3>
+          <a href="https://drive.google.com/file/d/1oQ4ClL_zbfOLqnRMiGRuWKZsHDDIhwHl/view?usp=sharing" target="_blank">
+            <button type="button" class="btn btn-lg btn-dark download-button"><i class="bi bi-file-earmark-person"></i> Download Resume</button>
+          </a>
+          
 
         </div>
 
@@ -85,7 +88,7 @@
       <div class="module fading-div">
         <img class="my-image" src="images/my-image.jpg" alt="my-image">
         <p>My name is Sahil Atul Mhatre. I am pursuing Bachelor's Degree in Computer Science Engineering.<br>
-          I am a Web Development and Android Development enthusiast.<br> I 🧡 playing and watching cricket.<br><br>
+          I am a Web Development and UI/UX enthusiast.<br> I 🧡 playing and watching cricket.<br><br>
           <b>Work Experience: </b> I've worked as an intern at the position of Front End Deveoper at The Crazy Enterpreneur.</p>
       </div>
 
@@ -105,10 +108,10 @@
             I can design websites ranging from a single page site to a complex web application having databases. </p>
       </div>
       <div class="service-2 module swipe even-item">
-        <img src="images/service2.png" alt="service2">
-        <h4 class="service-heading">Mobile App Development</h4>
-        <p>I develop Android applications having beautiful user interface and a good user experience.
-            I have worked on projects based on parse server, APIs, external libraries, etc which can be checked below in the projects section below. </p>
+        <img src="images/new-service.png" alt="service2">
+        <h4 class="service-heading">UI/UX Development</h4>
+        <p>I desgin beautiful User Interfaces and develop a good User Experience for the apps. Be it a design of a mobile application, a web application,
+           an application for Television or design for posters and billboards, I got everything covered. </p>
       </div>
       <!-- <hr> -->
     </div>
@@ -167,7 +170,7 @@
             <span>Mongo DB</span>
           </div>
           <div class="progress-line mongo-db meter">
-            <span aria-valuenow="50"></span>
+            <span aria-valuenow="60"></span>
           </div>
         </div>
         <div class="bar">
@@ -196,10 +199,10 @@
         </div>
         <div class="bar">
           <div class="info">
-            <span>Android Studio</span>
+            <span>Figma</span>
           </div>
           <div class="progress-line android-studio meter">
-            <span aria-valuenow="60"></span>
+            <span aria-valuenow="80"></span>
           </div>
         </div>
         <div class="bar">
@@ -207,7 +210,7 @@
             <span>Python</span>
           </div>
           <div class="progress-line python meter">
-            <span aria-valuenow="20"></span>
+            <span aria-valuenow="60"></span>
           </div>
         </div>
       </div>
@@ -256,60 +259,75 @@
     <div class="container-fluid">
       <div class="row first-project-row">
 
-        <div class="bottom-project col-lg-4 col-md-6 module hover-zoom">
-          <div class="project-div project-1">
-            <h5>Covid 19 <br> Tracker</h5>
-            <img class="project-image" src="images/covid.png" alt="covid">
-            <p>A Covid 19 cases tracker that displays state-wise distribution of Covid cases in India. </p>
-            <a href="https://evening-tor-07437.herokuapp.com/"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+        <div class="bottom-project col-lg-4 col-md-6 module">
+          <div class="project-element project-div project-1">
+            <h5>Foodmate<br>Web App</h5>
+            <img class="project-image" src="images/foodmate_logo.png" alt="smt-logo">
+            <p>A location based social networking web application for foodies to discover yummy food around them. </p>
+            <a href="https://mysterious-basin-14247.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
           </div>
         </div>
 
         <div class="bottom-project col-lg-4 col-md-6 module">
-          <div class="project-element project-div project-2">
-            <h5>Smart Task Manager</h5>
-            <img class="project-image" src="images/smt-logo.png" alt="smt-logo">
-            <p>A Web Application for organizations to manage the task and their deadlines efficiently with a fun rewarding system. </p>
-            <a href="https://smarttasksmanager.000webhostapp.com/stm/"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+          <div class="project-div project-2">
+            <h5>Renewal Reminder</h5>
+            <img class="project-image" src="images/automatic-renewal-reminder.png" alt="covid">
+            <p>A reminder system that automatically sends car insurance renewal reminder to your customers.</p>
+            <a href="https://github.com/Sahil-Mhatre14/Automatic-Renewal-Reminder" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
           </div>
         </div>
+        
 
         <div class="bottom-project col-lg-4 col-md-6 module">
           <div class="project-div project-3">
-            <h5>Simon<br>Game</h5>
-            <img class="project-image" src="images/simon.png" alt="simon-game">
-            <p>A fun game to test and improve memory skills. Remember the sequence and keep on pressing the correct tile. </p>
-            <a href="https://sahil-mhatre14.github.io/Simon-Game/"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+            <h5>Discord<br>Bot</h5>
+            <img class="project-image" src="images/discord-bot.png" alt="simon-game">
+            <p>A discord bot to play Disney's Club Penguin's famous game Card Jitsu and relive the memories! </p>
+            <a href="https://discord.gg/DEm2C9kdXV" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+          </div>
+        </div>
+
+        
+
+        <div class="bottom-project col-lg-4 col-md-6 module">
+          <div class="project-div project-5">
+            <h5>Livestreaming Website</h5>
+            <img class="project-image" src="images/livestreaming.png" alt="smt-logo">
+            <p>A one to many livestreaming website where you can stream yourself or your screen. </p>
+            <a href="https://stark-stream-89856.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
           </div>
         </div>
 
         <div class="bottom-project col-lg-4 col-md-6 module">
           <div class="project-div project-4">
-            <h5>Instagram <br> Clone</h5>
-            <img class="project-image" src="images/ig-logo.png" alt="covid">
-            <p>An Instagram Clone social meadia Android Application based on parse server. </p>
-            <a href="https://github.com/Sahil-Mhatre14/Instagram_Clone"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+            <h5>Simon<br>Game</h5>
+            <img class="project-image" src="images/simon.png" alt="simon-game">
+            <p>A fun game to test and improve memory skills. Remember the sequence and keep on pressing the correct tile. </p>
+            <a href="https://sahil-mhatre14.github.io/Simon-Game/" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
           </div>
         </div>
 
-        <div class="bottom-project col-lg-4 col-md-6 module">
-          <div class="project-div project-5">
-            <h5>Moon & Stars Game</h5>
-            <img class="project-image" src="images/moonandstars.png" alt="smt-logo">
-            <p>A Tic-Tac-Toe like Android game. But, with Moon and Stars as the symbols! </p>
-            <a href="#"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
-          </div>
-        </div>
 
-        <div class="bottom-project col-lg-4 col-md-6 module">
+        <div class="bottom-project col-lg-4 col-md-6 module hover-zoom">
           <div class="project-div project-6">
-            <h5>Lyrics<br>Finder</h5>
-            <img class="project-image" src="images/lyrics.png" alt="simon-game">
-            <p>An Android Application to find lyrics of the song. This app makes use of the Volley Library API. </p>
-            <a href="#"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+            <h5>Play TV</h5>
+            <img class="project-image" src="images/play-tv.png" alt="covid">
+            <p>A UI/UX project which is a prototype of an OTT app designed using Figma. </p>
+            <a href="https://www.figma.com/file/3wxdkzQzLJFpBaZBgpuuwx/Mini-Project?node-id=0%3A1" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
           </div>
         </div>
 
+      </div>
+
+      <div style="margin-top: -50px; margin-bottom: 40px;" class="row">
+        <div style="margin: 0 auto;" class="bottom-project col-lg-4 col-md-6 module hover-zoom">
+          <div class="project-div project-7">
+            <h5>Covid 19 <br> Tracker</h5>
+            <img class="project-image" src="images/covid.png" alt="covid">
+            <p>A Covid 19 cases tracker that displays state-wise distribution of Covid cases in India. </p>
+            <a href="https://evening-tor-07437.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-light project-button">Check it out!</button></a>
+          </div>
+        </div>
       </div>
 
       <!-- <div class="row"> -->
@@ -317,7 +335,7 @@
 
 
       <!-- </div> -->
-      <a href="https://github.com/Sahil-Mhatre14">
+      <a href="https://github.com/Sahil-Mhatre14" target="_blank">
         <button type="button" class="btn btn-lg btn-outline-dark project-button"> <i class="bi bi-github"></i> More projects on Github</button>
       </a>
       <hr>
@@ -355,19 +373,19 @@
 
       <div class="button">
         <div class="icon"><i class="fab fa-facebook-f"></i></div>
-        <a href="https://www.facebook.com/sahil.mhatre.393/"><span>Facebook</span></a>
+        <a href="https://www.facebook.com/sahil.mhatre.393/" target="_blank"><span>Facebook</span></a>
 
       </div>
 
       <div class="button">
         <div class="icon"><i class="fab fa-instagram"></i></div>
-        <a href="https://www.instagram.com/sahil_mhatre14/"><span>Instagram</span></a>
+        <a href="https://www.instagram.com/sahil_mhatre14/" target="_blank"><span>Instagram</span></a>
 
       </div>
 
       <div class="button">
         <div class="icon"><i class="fab fa-github"></i></div>
-        <a href="https://github.com/Sahil-Mhatre14"><span>Github</span></a>
+        <a href="https://github.com/Sahil-Mhatre14" target="_blank"><span>Github</span></a>
       </div>
 
       <div class="button">
@@ -377,7 +395,7 @@
 
     </div>
 
-    <p>Sahil Mhatre © 2021</p>
+    <p>Sahil Mhatre © 2022</p>
   </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
