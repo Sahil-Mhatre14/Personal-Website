@@ -587,6 +587,20 @@ hr {
   background: linear-gradient(to bottom right, #062AEB, #79B238); */
   background-color: black;
 }
+
+.project-0 {
+  /* Created with https://www.css-gradient.com */
+   /* background: #FFCC70;
+   background: -webkit-linear-gradient(top right, #FFCC70, #C850C0);
+   background: -moz-linear-gradient(top right, #FFCC70, #C850C0);
+   background: linear-gradient(to bottom left, #FFCC70, #C850C0); */
+
+   background: #00DBDE;
+   background: -webkit-linear-gradient(top right, #00DBDE, #FC00FF);
+   background: -moz-linear-gradient(top right, #00DBDE, #FC00FF);
+   background: linear-gradient(to bottom left, #00DBDE, #FC00FF);
+ }
+
 .project-6 h5 {
   height: 75px;
 }
@@ -599,6 +613,10 @@ hr {
 
 .project-2 img {
   width: 170px;
+}
+
+.project-0 img {
+  width: 100%;
 }
 
 /* .foodmate-img {
