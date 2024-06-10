@@ -362,8 +362,12 @@ hr {
   background: #5cb85c;
 }
 .bar .progress-line.react span{
-  width: 40%;
-  background: yellow;
+  width: 85%;
+  background: #5cb85c;
+}
+.bar .progress-line.next-js span{
+  width: 80%;
+  background: #5cb85c;
 }
 .bar .progress-line.mongo-db span{
   width: 60%;
@@ -386,6 +390,10 @@ hr {
   background: #5cb85c;
 }
 .bar .progress-line.python span{
+  width: 60%;
+  background: #5bc0de;
+}
+.bar .progress-line.strapi span{
   width: 60%;
   background: #5bc0de;
 }
@@ -435,7 +443,10 @@ hr {
   content: "90/100";
 }
 .progress-line.react span::after{
-  content: "40/100";
+  content: "85/100";
+}
+.progress-line.next-js span::after{
+  content: "80/100";
 }
 .progress-line.mongo-db span::after{
   content: "60/100";
@@ -453,6 +464,9 @@ hr {
   content: "80/100";
 }
 .progress-line.python span::after{
+  content: "60/100";
+}
+.progress-line.strapi span::after{
   content: "60/100";
 }
 
